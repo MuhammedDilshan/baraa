@@ -1,0 +1,137 @@
+.contactdetails {
+    padding: 100px;
+}
+
+.contactdetails h6 {
+    border: 1px solid #5925DC;
+    background-color: #F4F3FF;
+    padding: 6px 16px;
+    border-radius: 30px;
+    display: inline-block;
+    margin-bottom: 56px;
+}
+
+.contactdetails .main-bx {
+    display: flex;
+}
+
+.contactdetails .main-bx .details-left {
+    width: 40%;
+    padding: 10px;
+    border-right: 1px solid #D0D5DD;
+}
+
+.contactdetails .main-bx .details-left .item .top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contactdetails .main-bx .details-left .item .top span {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.contactdetails .main-bx .details-left .item .top svg {
+    color: #2d85f0;
+    margin-right: 8px;
+    width: 20px;
+}
+
+.contactdetails .main-bx .details-left .item p {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.contactdetails .main-bx form {
+    width: 55%;
+    padding-left: 50px;
+    text-align: left;
+}
+
+.contactdetails .main-bx form .top {
+    display: flex;
+    gap: 20px;
+}
+
+.contactdetails .main-bx form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.contactdetails .main-bx form input {
+    background-color: #F6F6F6;
+    border-radius: 4px;
+    padding: 18px 28px;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.contactdetails .main-bx form input.namee {
+    width: 100%;
+}
+
+.contactdetails .main-bx form input.msg {
+    display: block;
+    width: 70%;
+}
+
+.contactdetails .main-bx form button {
+    background-color: #000;
+    border-radius: 4px;
+    padding: 18px 28px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+@media (max-width: 1000px) {
+    .contactdetails .main-bx {
+        flex-direction: column;
+    }
+
+    .contactdetails .main-bx .details-left {
+        width: 80%;
+        border: 0;
+        margin: 0 auto 40px;
+    }
+
+    .contactdetails .main-bx .details-left .item .top {
+        justify-content: center;
+    }
+
+    .contactdetails .main-bx .details-left .item p {
+        text-align: center;
+    }
+
+    .contactdetails .main-bx form {
+        width: 80%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 800px) {
+    .contactdetails {
+        padding: 100px 50px;
+    }
+}
+
+@media (max-width: 640px) {
+    .contactdetails .main-bx form .top {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 480px) {
+    .contactdetails .main-bx form {
+        padding-left: 0;
+    }
+
+    .contactdetails .main-bx form input,
+    .contactdetails .main-bx form input.msg {
+        width: 100%;
+    }
+}

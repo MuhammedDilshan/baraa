@@ -1,0 +1,111 @@
+footer {
+    background-color: #1E164E;
+    padding: 50px;
+}
+
+footer .top-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .top-footer .logoside {
+    width: 22%;
+}
+
+footer .top-footer .logoside img {
+    margin-bottom: 20px;
+    width: 150px;
+}
+
+footer .top-footer .logoside .social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer .top-footer .logoside .social li {
+    color: #fff;
+}
+
+footer .top-footer .service-footer {
+    width: 16%;
+}
+
+
+footer .top-footer .company {
+    width: 16%;
+}
+
+footer .top-footer form {
+    width: 24%;
+    text-align: left;
+}
+
+footer .top-footer form input {
+    border-radius: 6px;
+    padding: 24px 32px;
+    border: none;
+    outline: none;
+    width: 80%;
+}
+
+footer .top-footer form input[type=submit] {
+    border-radius: 6px;
+    padding: 24px 32px;
+    background-color: #17B9DC;
+    margin-top: 10px;
+    width: 100%;
+}
+
+footer .top-footer .service-footer h3,
+footer .top-footer .company h3,
+footer .top-footer form h3 {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+footer .top-footer .service-footer li,
+footer .top-footer .company li,
+footer .top-footer form li {
+    color: #EAECF0;
+    font-size: 16px;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+@media (max-width: 800px) {
+    footer .top-footer {
+        flex-direction: column;
+    }
+
+    footer .top-footer .logoside,
+    footer .top-footer .service-footer,
+    footer .top-footer .company,
+    footer .top-footer form {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    footer .top-footer .service-footer h3,
+    footer .top-footer .company h3,
+    footer .top-footer form h3,
+    footer .top-footer .service-footer li,
+    footer .top-footer .company li,
+    footer .top-footer form li {
+        text-align: center;
+    }
+
+    footer .top-footer form input[type=submit] {
+        width: 40%;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    footer .top-footer form input[type=submit] {
+        width: 54%;
+    }
+}

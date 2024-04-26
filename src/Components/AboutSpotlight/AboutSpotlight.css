@@ -1,0 +1,50 @@
+.aboutspotlight {
+    padding: 100px;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    background: url(../../Assets/Images/aboutspotlight.png);
+}
+
+.aboutspotlight .content {
+    width: 60%;
+    text-align: left;
+}
+
+.aboutspotlight .content h3 {
+    color: #fff;
+    font-size: 34px;
+}
+
+.aboutspotlight .content p {
+    font-size: 18px;
+    color: #fff;
+}
+
+@media (max-width: 1000px) {
+    .aboutspotlight .content {
+        width: 80%;
+    }
+}
+
+@media (max-width: 800px) {
+    .aboutspotlight .content {
+        width: 100%;
+    }
+}
+
+@media (max-width: 640px) {
+    .aboutspotlight {
+        padding: 100px 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .aboutspotlight .content h3 {
+        font-size: 24px;
+    }
+
+    .aboutspotlight .content p {
+        font-size: 16px;
+    }
+}
