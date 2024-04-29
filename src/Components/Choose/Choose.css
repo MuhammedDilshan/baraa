@@ -1,6 +1,8 @@
 .main {
     padding: 0 100px 80px 100px;
+    background-color: #fff;
 }
+
 
 .choose {
     display: flex;
