@@ -18,6 +18,7 @@ import Ibrahim from "./Images/ibrahim.png";
 import Jameel from "./Images/jameell.png";
 import Khalid from "./Images/khalid.png";
 import like from "./Images/like.svg";
+import Hero from "./Images/1 Hero Section.png";
 
 export const assets = {
   Logo,
@@ -40,4 +41,5 @@ export const assets = {
   Jameel,
   Khalid,
   like,
+  Hero,
 };
