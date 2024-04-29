@@ -1,9 +1,10 @@
 .aboutspotlight {
-    padding: 100px;
+    padding: 150px;
     display: flex;
     justify-content: start;
     align-items: end;
     background: url(../../Assets/Images/aboutspotlight.png);
+    background-attachment: fixed;
 }
 
 .aboutspotlight .content {

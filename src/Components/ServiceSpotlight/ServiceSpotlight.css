@@ -5,6 +5,7 @@
     align-items: end;
     background: url(../../Assets/Images/Home.png);
     height: 30vh;
+    background-attachment: fixed;
 }
 
 .service-spotlight .content {
