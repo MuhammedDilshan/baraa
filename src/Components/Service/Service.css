@@ -74,6 +74,12 @@
     display: inline-block;
     font-size: 18px;
     color: #F05A28;
+    transition: .4s ease-in;
+}
+
+.service .service-list button:hover {
+    background-color: #F05A28;
+    color: #fff;
 }
 
 @media (max-width: 1000px) {

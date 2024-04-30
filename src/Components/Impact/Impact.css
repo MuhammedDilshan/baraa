@@ -23,6 +23,11 @@
     border: none;
     outline: none;
     font-size: 18px;
+    transition: .4s ease-in;
+}
+
+.impact button:hover {
+    background-color: #c84b21;
 }
 
 @media (max-width: 1000px) {

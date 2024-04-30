@@ -1,6 +1,7 @@
 import React from "react";
 import "./Service.css";
 import { assets } from "../../Assets/Assets";
+import { Link } from "react-router-dom";
 
 function Service() {
   return (
@@ -59,7 +60,9 @@ function Service() {
           </div>
           <p>We streamline the application procedure, guaranteeing..</p>
         </div>
-        <button>Services</button>
+        <Link to="/service">
+          <button>Services</button>
+        </Link>
       </div>
     </div>
   );

@@ -1,5 +1,6 @@
 import React from "react";
 import "./Impact.css";
+import { Link } from "react-router-dom";
 
 function Impact() {
   return (
@@ -12,7 +13,9 @@ function Impact() {
         prosper in Saudi Arabia's ever-changing business environment and beyond.
         Join us, and let’s pursue success together.
       </p>
-      <button>Connect With Us</button>
+      <Link to="/contact">
+        <button>Connect With Us</button>
+      </Link>
     </div>
   );
 }
