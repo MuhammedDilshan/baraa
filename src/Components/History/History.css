@@ -26,10 +26,10 @@
     background-color: #F4F3FF;
     padding: 6px 16px;
     border-radius: 30px;
-    margin-bottom: 16px;
     display: inline-block;
+    margin-bottom: 16px;
+    font-size: 12px;
     color: #5925DC;
-    font-size: 14px;
 }
 
 .history .history-text p {

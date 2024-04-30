@@ -9,6 +9,8 @@
     border-radius: 30px;
     display: inline-block;
     margin-bottom: 56px;
+    font-size: 12px;
+    color: #5925DC;
 }
 
 .contactdetails .main-bx {
@@ -29,7 +31,7 @@
 
 .contactdetails .main-bx .details-left .item .top span {
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .contactdetails .main-bx .details-left .item .top svg {
@@ -59,6 +61,7 @@
     margin-bottom: 10px;
     font-size: 18px;
     text-align: left;
+    font-weight: 500;
 }
 
 .contactdetails .main-bx form input {

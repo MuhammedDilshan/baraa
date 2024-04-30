@@ -25,6 +25,11 @@ footer .top-footer .logoside .social {
 
 footer .top-footer .logoside .social li {
     color: #fff;
+    transition: .4s ease-in;
+}
+
+footer .top-footer .logoside .social li:hover {
+    transform: scale(1.4);
 }
 
 footer .top-footer .service-footer {
@@ -51,10 +56,18 @@ footer .top-footer form input {
 
 footer .top-footer form input[type=submit] {
     border-radius: 6px;
-    padding: 24px 32px;
+    padding: 22px 32px;
     background-color: #17B9DC;
     margin-top: 10px;
     width: 100%;
+    transition: .4s ease-in;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+footer .top-footer form input[type=submit]:hover {
+    background-color: #188ca6;
 }
 
 footer .top-footer .service-footer h3,

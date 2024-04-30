@@ -10,6 +10,9 @@
     border-radius: 30px;
     display: inline-block;
     margin-bottom: 56px;
+    font-size: 12px;
+    color: #5925DC;
+    margin-left: 50px;
 }
 
 .recentblog .blog-list {
@@ -40,6 +43,11 @@
 @media (max-width: 1000px) {
     .recentblog {
         padding: 100px 40px;
+    }
+
+    .recentblog h6 {
+        margin-left: 0;
+
     }
 }
 

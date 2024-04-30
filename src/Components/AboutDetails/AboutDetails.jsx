@@ -16,7 +16,7 @@ function AboutDetails() {
             forward-thinking vision. We are ready and able to take advantage of
             these opportunities in order to help our clients succeed now.
           </p>
-          <span>VISION</span>
+          <h6 className="vis-hed">VISION</h6>
           <p>
             With Saudi Arabia taking the lead in the world economy, we want to
             be the go-to service provider and grow along with our clients. Our

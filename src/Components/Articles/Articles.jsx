@@ -8,7 +8,7 @@ function Articles() {
       <div className="article-home">
         <div className="content">
           <h3>Investing in the Kingdom of Saudi Arabia</h3>
-          <p>
+          <p className="imgp">
             The Kingdom of Saudi Arabia (KSA) is now transforming to become the
             region’s....
           </p>
@@ -16,8 +16,8 @@ function Articles() {
         </div>
       </div>
       <div className="article-details">
-        <p>Author : Mohammed</p>
-        <p>Date : 21-04-2024</p>
+        <span>Author : Mohammed</span>
+        <span>Date : 21-04-2024</span>
       </div>
       <p>
         KSA recently announced the establishment of new Special Integrated
@@ -45,7 +45,7 @@ function Articles() {
       <div className="article-invest">
         <div className="content">
           <h3>Investing in the Kingdom of Saudi Arabia</h3>
-          <p>
+          <p className="imgp">
             The Kingdom of Saudi Arabia (KSA) is now transforming to become the
             region’s....
           </p>
@@ -53,8 +53,8 @@ function Articles() {
         </div>
       </div>
       <div className="article-details">
-        <p>Author : Mohammed</p>
-        <p>Date : 21-04-2024</p>
+        <span>Author : Mohammed</span>
+        <span>Date : 21-04-2024</span>
       </div>
       <p>
         KSA recently announced the establishment of new Special Integrated

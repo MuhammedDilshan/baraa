@@ -32,6 +32,8 @@
     border-radius: 30px;
     display: inline-block;
     margin-bottom: 16px;
+    font-size: 12px;
+    color: #5925DC;
 }
 
 .choose .choose-content h3 {
