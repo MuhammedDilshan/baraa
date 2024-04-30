@@ -3,10 +3,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: calc(100vh - 100px);
+    /* height: calc(100vh - 100px); */
     display: flex;
     align-items: end;
     width: 100%;
+    height: 100vh;
 }
 
 .slick-slider {
