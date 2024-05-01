@@ -13,6 +13,7 @@
 .vision .vision-img img {
     display: block;
     width: 100%;
+    border-radius: 12px;
 }
 
 .vision .vision-middle {
