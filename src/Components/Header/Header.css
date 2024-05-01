@@ -32,21 +32,22 @@ header .nav {
 header .nav li .link {
     font-size: 18px;
     color: #fff;
+    position: relative;
 }
 
-header .nav li::after {
+header .nav .link:after {
     content: "";
     width: 100%;
     display: block;
     height: 2px;
-    background-color: #fff;
+    background-color: #F05A28;
     transform: translateY(10px);
     opacity: 0;
     border-radius: 20px;
     transition: .3s ease-in-out;
 }
 
-header .nav li.active::after {
+header .nav .link.active:after {
     opacity: 1;
     transform: translateY(6px);
 }

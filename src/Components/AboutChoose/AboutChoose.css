@@ -21,6 +21,7 @@
 .container-choose {
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .about-choose .choose-text {
@@ -29,7 +30,7 @@
 
 .about-choose .choose-text p {
     width: 80%;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     text-align: left;
 }
 
@@ -54,6 +55,13 @@
 .about-choose .choose-imgg img {
     width: 100%;
     display: block;
+    border-radius: 12px;
+}
+
+.about-ch-img {
+    position: absolute;
+    right: 440px;
+    top: 120px;
 }
 
 @media (max-width: 1000px) {

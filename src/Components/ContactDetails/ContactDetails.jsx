@@ -29,6 +29,18 @@ function ContactDetails() {
               <CiLocationOn />
               <span>Locate Us</span>
             </div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d607.7199225895854!2d50.09650034885181!3d26.42749715549677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e49fd133f702ca1%3A0xda6889b69db994d4!2zQmFyYWEgVmlzYSBhbmQgVHJhbnNsYXRpb24g2LTYsdmD2Kkg2KjYsdin2LnYqSDZhNiu2K_Zhdin2Kog2KfZhNiq2LHYrNmF2Kkg2YjYp9mE2KrYo9i02YrYsdin2Ko!5e0!3m2!1sen!2sin!4v1714552124299!5m2!1sen!2sin"
+              width="400"
+              height="300"
+              style={{ border: "0", borderRadius: "20" }}
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              className="map"
+            >
+                     
+            </iframe>
             <p>Opp. Shira Lulu Mall, Dammam, Gate No. 1</p>
           </div>
         </div>

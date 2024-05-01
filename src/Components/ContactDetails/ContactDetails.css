@@ -91,6 +91,11 @@
     margin-top: 20px;
 }
 
+.map {
+    border-radius: 12px;
+    margin-bottom: 16px;
+}
+
 @media (max-width: 1000px) {
     .contactdetails .main-bx {
         flex-direction: column;

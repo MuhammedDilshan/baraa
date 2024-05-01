@@ -20,7 +20,7 @@ function Review() {
             <div className="rating">
               <h6>Average Rating</h6>
               <div className="amout-rate">
-                <p>45</p>
+                <p>4.5</p>
                 <img src={assets.Rating} alt="" />
               </div>
             </div>

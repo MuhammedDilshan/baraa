@@ -19,6 +19,7 @@ import Jameel from "./Images/jameell.png";
 import Khalid from "./Images/khalid.png";
 import like from "./Images/like.svg";
 import Hero from "./Images/1 Hero Section.png";
+import Choose_content from "./Images/Fun Fact.png";
 
 export const assets = {
   Logo,
@@ -42,4 +43,5 @@ export const assets = {
   Khalid,
   like,
   Hero,
+  Choose_content,
 };

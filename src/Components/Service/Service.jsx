@@ -2,6 +2,7 @@ import React from "react";
 import "./Service.css";
 import { assets } from "../../Assets/Assets";
 import { Link } from "react-router-dom";
+import { FaArrowRight } from "react-icons/fa6";
 
 function Service() {
   return (
@@ -61,7 +62,9 @@ function Service() {
           <p>We streamline the application procedure, guaranteeing..</p>
         </div>
         <Link to="/service">
-          <button>Services</button>
+          <button>
+            Services <FaArrowRight />
+          </button>
         </Link>
       </div>
     </div>

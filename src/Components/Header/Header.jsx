@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Header.css";
 import { assets } from "../../Assets/Assets";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import MobileMenu from "../MobileMenu/MobileMenu";
 
 function Header() {
@@ -13,6 +13,18 @@ function Header() {
   const handleNavLinkClick = (link) => {
     setActiveLink(link); // Update active link state
   };
+  const location = useLocation();
+
+  useEffect(() => {
+    const pathname = location.pathname;
+
+    if (pathname === "/") {
+      setActiveLink("home");
+    } else {
+      setActiveLink(pathname.slice(1));
+    }
+  }, [location]);
+
   return (
     <div>
       <header className={`${isMenuOpen ? "open" : ""}`}>

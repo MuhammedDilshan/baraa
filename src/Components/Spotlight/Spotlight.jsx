@@ -3,6 +3,7 @@ import "./Spotlight.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { FaArrowDown } from "react-icons/fa6";
 
 function Spotlight() {
   var settings = {
@@ -19,7 +20,9 @@ function Spotlight() {
           <div className="content">
             <h3>Our Experts simplifies</h3>
             <h4>Your Documentation Requirements</h4>
-            <button>Services</button>
+            <button>
+              Services <FaArrowDown />
+            </button>
           </div>
         </div>
       </div>
@@ -28,7 +31,9 @@ function Spotlight() {
           <div className="content">
             <h3>Documenting Dreams </h3>
             <h4>Translating Visions</h4>
-            <button>About Us</button>
+            <button>
+              About Us <FaArrowDown />
+            </button>
           </div>
         </div>
       </div>
@@ -41,7 +46,9 @@ function Spotlight() {
               expertise and innovation so that our clients can do well in
               changing environments
             </h4>
-            <button>Contact Us</button>
+            <button>
+              Contact Us <FaArrowDown />
+            </button>
           </div>
         </div>
       </div>
@@ -50,7 +57,9 @@ function Spotlight() {
           <div className="content">
             <h3>Our Experts simplifies</h3>
             <h4>Your Documentation Requirements</h4>
-            <button>Services</button>
+            <button>
+              Services <FaArrowDown />
+            </button>
           </div>
         </div>
       </div>

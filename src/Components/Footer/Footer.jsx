@@ -43,6 +43,17 @@ function Footer() {
           <input type="submit" value="Subscribe" />
         </form>
       </div>
+      <div className="bottom-footer">
+        <ul className="copyright">
+          <li>Copyright © 2024 BARAA GLOBAL</li>
+          <li>Design by ADALINE</li>
+        </ul>
+        <ul className="terms">
+          <li>Term of use</li>
+          <li>Privacy Policy</li>
+          <li>Cookie Policy</li>
+        </ul>
+      </div>
     </footer>
   );
 }

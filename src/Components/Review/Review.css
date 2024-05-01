@@ -18,6 +18,7 @@
     margin-bottom: 16px;
     font-size: 12px;
     color: #5925DC;
+    text-transform: uppercase;
 }
 
 .review .top-review .left-review {
@@ -61,6 +62,11 @@
 .review .top-review .valuation .amout span {
     font-size: 20px;
     color: #fff;
+    background-color: #2E90FA;
+    padding: 2px 24px;
+    border-radius: 30px;
+    display: inline-block;
+    height: 30px;
 }
 
 .review .top-review .amout-rate img {

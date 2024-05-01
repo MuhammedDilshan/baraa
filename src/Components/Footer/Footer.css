@@ -1,11 +1,14 @@
 footer {
     background-color: #1E164E;
-    padding: 50px;
 }
 
 footer .top-footer {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #1D2939;
+    padding-bottom: 30px;
+    padding: 50px;
 }
 
 footer .top-footer .logoside {
@@ -88,6 +91,72 @@ footer .top-footer form li {
     text-align: left;
 }
 
+footer .top-footer .service-footer li:after,
+footer .top-footer .company li:after,
+footer .top-footer form li:after {
+    content: "";
+    width: 60%;
+    display: block;
+    height: 2px;
+    background-color: #F05A28;
+    transform: translateY(4px);
+    opacity: 0;
+    border-radius: 20px;
+    transition: .4s ease-in-out;
+}
+
+footer .top-footer .service-footer li:hover::after,
+footer .top-footer .company li:hover::after,
+footer .top-footer form li:hover::after {
+    opacity: 1;
+}
+
+.bottom-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.bottom-footer .copyright,
+.bottom-footer .terms {
+    display: flex;
+}
+
+.bottom-footer .terms li {
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    border-right: 1px solid #3E1C96;
+    padding: 0 14px;
+}
+
+.bottom-footer .copyright li {
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    border-right: 1px solid #3E1C96;
+    padding: 0 14px;
+}
+
+.bottom-footer .copyright li:last-child,
+.bottom-footer .terms li:last-child {
+    border-right: 0;
+}
+
+@media (max-width: 1000px) {
+    .bottom-footer {
+        flex-wrap: wrap;
+    }
+
+    .bottom-footer .copyright,
+    .bottom-footer .terms {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
 @media (max-width: 800px) {
     footer .top-footer {
         flex-direction: column;
@@ -114,6 +183,12 @@ footer .top-footer form li {
     footer .top-footer form input[type=submit] {
         width: 40%;
         margin-top: 20px;
+    }
+}
+
+@media (max-width: 640px) {
+    .bottom-footer {
+        padding: 0;
     }
 }
 

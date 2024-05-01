@@ -34,6 +34,7 @@ function AboutChoose() {
         <div className="choose-imgg">
           <img src={assets.Choose} alt="" />
         </div>
+        <img src={assets.Choose_content} alt="" className="about-ch-img" />
       </div>
     </div>
   );

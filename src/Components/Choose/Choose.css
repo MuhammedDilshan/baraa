@@ -8,16 +8,26 @@
     display: flex;
     padding: 100px 0;
     justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
 .choose .choose-image {
     width: 400px;
-    margin-right: 80px;
+    margin-right: 120px;
+}
+
+.img-cont-choos {
+    position: absolute;
+    left: 430px;
+    top: 270px;
+    width: 200px;
 }
 
 .choose .choose-image img {
     display: block;
     width: 100%;
+    border-radius: 12px;
 }
 
 .choose .choose-content {
@@ -34,6 +44,7 @@
     margin-bottom: 16px;
     font-size: 12px;
     color: #5925DC;
+    text-transform: uppercase;
 }
 
 .choose .choose-content h3 {
@@ -44,11 +55,10 @@
 .choose .choose-content p {
     font-size: 18px;
     color: #667085;
-    margin-bottom: 18px;
-    width: 80%;
+    margin-bottom: 50px;
+    width: 90%;
 }
 
-.choose .choose-content .advantege {}
 
 .choose .choose-content .advantege li {
     display: flex;
@@ -82,6 +92,19 @@
     display: block;
 }
 
+@media (max-width: 1280px) {
+    .img-cont-choos {
+        left: 320px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .img-cont-choos {
+        left: 260px;
+        top: 300px;
+    }
+}
+
 @media (max-width: 1000px) {
     .choose .choose-image {
         width: 300px;
@@ -95,11 +118,20 @@
         padding-left: 30px;
         padding-right: 30px;
     }
+
+    .img-cont-choos {
+        left: 210px;
+        top: 350px;
+    }
 }
 
 @media (max-width: 800px) {
     .choose {
         flex-direction: column;
+    }
+
+    .img-cont-choos {
+        display: none;
     }
 
     .choose .choose-image {

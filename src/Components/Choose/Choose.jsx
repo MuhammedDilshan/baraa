@@ -9,6 +9,7 @@ function Choose() {
         <div className="choose-image">
           <img src={assets.Choose} alt="" />
         </div>
+        <img src={assets.Choose_content} alt="" className="img-cont-choos" />
         <div className="choose-content">
           <h4>Why Choose us</h4>
           <h3>Choose Us to Grow Your Business</h3>
