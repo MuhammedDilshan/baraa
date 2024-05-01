@@ -82,6 +82,18 @@ footer .top-footer form h3 {
     text-align: left;
 }
 
+footer .top-footer .service-footer h3:after,
+footer .top-footer .company h3:after,
+footer .top-footer form h3:after {
+    content: "";
+    width: 40%;
+    display: block;
+    height: 2px;
+    background-color: #F05A28;
+    transform: translateY(4px);
+    border-radius: 20px;
+}
+
 footer .top-footer .service-footer li,
 footer .top-footer .company li,
 footer .top-footer form li {
@@ -91,30 +103,12 @@ footer .top-footer form li {
     text-align: left;
 }
 
-footer .top-footer .service-footer li:after,
-footer .top-footer .company li:after,
-footer .top-footer form li:after {
-    content: "";
-    width: 60%;
-    display: block;
-    height: 2px;
-    background-color: #F05A28;
-    transform: translateY(4px);
-    opacity: 0;
-    border-radius: 20px;
-    transition: .4s ease-in-out;
-}
-
-footer .top-footer .service-footer li:hover::after,
-footer .top-footer .company li:hover::after,
-footer .top-footer form li:hover::after {
-    opacity: 1;
-}
 
 .bottom-footer {
     display: flex;
     justify-content: space-between;
     padding: 0 50px;
+    padding-bottom: 50px;
 }
 
 .bottom-footer .copyright,
