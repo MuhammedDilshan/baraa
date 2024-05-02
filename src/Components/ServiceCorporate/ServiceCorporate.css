@@ -49,6 +49,7 @@
 .service-corporate .service-list .item .img-cont h5 {
     font-size: 20px;
     margin-left: 18px;
+    font-weight: 400;
 }
 
 @media (max-width: 1000px) {
