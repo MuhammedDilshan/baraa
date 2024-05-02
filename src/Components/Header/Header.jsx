@@ -73,7 +73,9 @@ function Header() {
             </Link>
           </li>
         </ul>
-        <button>Connect With Us</button>
+        <Link to="/contact">
+          <button>Connect With Us</button>
+        </Link>
         <div className="menu" onClick={toggleMenu}>
           <span></span>
           <span></span>
