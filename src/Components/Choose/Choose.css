@@ -45,11 +45,13 @@
     font-size: 12px;
     color: #5925DC;
     text-transform: uppercase;
+    font-weight: 500;
 }
 
 .choose .choose-content h3 {
     font-size: 40px;
     margin-bottom: 18px;
+    font-weight: 600;
 }
 
 .choose .choose-content p {

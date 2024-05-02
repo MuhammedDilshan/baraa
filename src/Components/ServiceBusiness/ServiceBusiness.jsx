@@ -11,9 +11,9 @@ function ServiceBusiness() {
         <div className="item">
           <div className="img-cont">
             <img src={assets.Service_icon} alt="Service_icon" />
-            <h5>New Business Setup</h5>
+            <h5>Company & Establishment Registration </h5>
           </div>
-          <p>Company & Establishment Registration</p>
+          {/* <p>Company & Establishment Registration</p> */}
         </div>
         <div className="item">
           <div className="img-cont">

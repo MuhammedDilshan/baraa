@@ -11,6 +11,7 @@
     margin-bottom: 56px;
     font-size: 12px;
     color: #5925DC;
+    font-weight: 500;
 }
 
 .contactdetails .main-bx {
@@ -95,6 +96,19 @@
 .map {
     border-radius: 12px;
     margin-bottom: 16px;
+    width: 400px;
+}
+
+@media (max-width: 1280px) {
+    .map {
+        width: 350px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .map {
+        width: 320px;
+    }
 }
 
 @media (max-width: 1000px) {
@@ -142,5 +156,9 @@
     .contactdetails .main-bx form input,
     .contactdetails .main-bx form input.msg {
         width: 100%;
+    }
+
+    .map {
+        width: 230px;
     }
 }

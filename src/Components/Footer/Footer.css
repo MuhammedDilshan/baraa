@@ -83,13 +83,12 @@ footer .top-footer form h3 {
 }
 
 footer .top-footer .service-footer h3:after,
-footer .top-footer .company h3:after,
-footer .top-footer form h3:after {
+footer .top-footer .company h3:after {
     content: "";
     width: 40%;
     display: block;
     height: 2px;
-    background-color: #F05A28;
+    background-color: #fff;
     transform: translateY(4px);
     border-radius: 20px;
 }
@@ -178,11 +177,17 @@ footer .top-footer form li {
         width: 40%;
         margin-top: 20px;
     }
+
+    footer .top-footer .service-footer h3:after,
+    footer .top-footer .company h3:after {
+        margin: 0 auto;
+        width: 20%;
+    }
 }
 
 @media (max-width: 640px) {
     .bottom-footer {
-        padding: 0;
+        padding: 0 0 50px 0;
     }
 }
 

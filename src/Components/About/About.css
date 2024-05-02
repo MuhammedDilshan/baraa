@@ -22,12 +22,14 @@
     font-size: 12px;
     color: #5925DC;
     text-transform: uppercase;
+    font-weight: 500;
 }
 
 .about .about-content h2 {
     font-size: 40px;
     color: #101828;
     margin-bottom: 30px;
+    font-weight: 600;
 }
 
 .about .about-content p {

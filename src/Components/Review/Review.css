@@ -19,6 +19,7 @@
     font-size: 12px;
     color: #5925DC;
     text-transform: uppercase;
+    font-weight: 500;
 }
 
 .review .top-review .left-review {
@@ -30,6 +31,7 @@
     color: #fff;
     font-size: 40px;
     margin-bottom: 20px;
+    font-weight: 600;
 }
 
 .review .top-review .valuation {
@@ -260,5 +262,15 @@
     .review .top-review .valuation .amout p,
     .review .top-review .amout-rate p {
         font-size: 26px;
+    }
+
+    .review .top-review .valuation {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .review .top-review .valuation .amout,
+    .review .top-review .amout-rate {
+        justify-content: center;
     }
 }
