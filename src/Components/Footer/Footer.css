@@ -54,7 +54,8 @@ footer .top-footer form input {
     padding: 24px 10px 24px 32px;
     border: none;
     outline: none;
-    width: 80%;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 footer .top-footer form input[type=submit] {
