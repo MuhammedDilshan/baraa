@@ -1,5 +1,5 @@
 .aboutspotlight {
-    padding: 150px;
+    padding: 180px 100px 100px 80px;
     display: flex;
     justify-content: start;
     align-items: end;
@@ -8,14 +8,16 @@
 }
 
 .aboutspotlight .content {
-    width: 60%;
+    width: 80%;
     text-align: left;
+    margin-top: 100px;
 }
 
 .aboutspotlight .content h3 {
     color: #fff;
     font-size: 34px;
-    font-weight: 600;
+    font-family: 'Cocogoose';
+    font-weight: 300;
 }
 
 .aboutspotlight .content p {

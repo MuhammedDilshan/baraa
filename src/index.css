@@ -15,7 +15,7 @@ code {
 
 @font-face {
     font-family: 'Cocogoose';
-    src: url('./Assets/fonts/Cocogoose-Pro-Regular-trial.ttf') format('truetype');
+    src: url('./Assets/fonts/cocogoose_trial.otf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }

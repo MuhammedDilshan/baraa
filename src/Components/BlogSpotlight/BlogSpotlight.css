@@ -1,5 +1,5 @@
 .blogSpotlight {
-    padding: 150px;
+    padding: 180px 100px 100px 80px;
     display: flex;
     justify-content: start;
     align-items: end;
@@ -10,6 +10,7 @@
 .blogSpotlight .content {
     width: 60%;
     text-align: left;
+    margin-top: 80px;
 }
 
 .blogSpotlight .content h3 {
