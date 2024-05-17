@@ -74,7 +74,7 @@ function ContactDetails() {
             className="msg"
           />
           <label htmlFor="">Message</label>
-          <input type="text" placeholder="Type your Message" className="msg" />
+          <input type="text" placeholder="Type Your Message" className="msg" />
           <button>Send Message</button>
         </form>
       </div>

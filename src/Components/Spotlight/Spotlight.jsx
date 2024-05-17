@@ -8,10 +8,12 @@ import { FaArrowDown } from "react-icons/fa6";
 function Spotlight() {
   var settings = {
     infinite: true,
-    speed: 500,
+    speed: 1500,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
+    autoplaySpeed: 5000,
+    cssEase: "ease-in-out",
   };
   return (
     <Slider {...settings}>
@@ -27,7 +29,7 @@ function Spotlight() {
         </div>
       </div>
       <div>
-        <div className="spotlight">
+        <div className="spotlight two">
           <div className="content">
             <h3>Documenting Dreams </h3>
             <h4>Translating Visions</h4>
@@ -38,7 +40,7 @@ function Spotlight() {
         </div>
       </div>
       <div>
-        <div className="spotlight">
+        <div className="spotlight three">
           <div className="content">
             <h3>Baraa Offers Outstanding Solutions</h3>
             <h4>

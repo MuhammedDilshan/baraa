@@ -10,6 +10,20 @@
     height: 100vh;
 }
 
+.two {
+    background: url(../../Assets/Images/Home2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.three {
+    background: url(../../Assets/Images/Homw3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .slick-slider {
     overflow: hidden;
     position: sticky !important;

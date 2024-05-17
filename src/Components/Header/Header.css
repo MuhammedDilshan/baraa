@@ -1,7 +1,7 @@
 header {
     display: flex;
     background-color: #1E164E;
-    height: 100px;
+    height: 85px;
     align-items: center;
     justify-content: space-between;
     padding: 0 50px;
@@ -16,7 +16,7 @@ header {
 }
 
 header .logo {
-    width: 150px;
+    width: 120px;
 }
 
 header .logo img {
@@ -30,7 +30,7 @@ header .nav {
 }
 
 header .nav li .link {
-    font-size: 18px;
+    font-size: 16px;
     color: #fff;
     position: relative;
 }

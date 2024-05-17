@@ -79,7 +79,7 @@
 .contactdetails .main-bx form input {
     background-color: #F6F6F6;
     border-radius: 4px;
-    padding: 18px 28px;
+    padding: 18px 16px;
     border: none;
     outline: none;
     margin-bottom: 10px;
@@ -102,8 +102,8 @@
     padding: 18px 28px;
     color: #fff;
     display: inline-block;
-    margin-top: 20px;
-    width: 100%;
+    width: 50%;
+    margin: 20px auto 0;
     box-sizing: border-box;
 }
 

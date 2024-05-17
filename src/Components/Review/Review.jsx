@@ -10,7 +10,7 @@ function Review() {
           <h4>Testimonial</h4>
           <h5>Customers Review</h5>
           <div className="valuation">
-            <div className="total">
+            {/* <div className="total">
               <h6>Total Reviews</h6>
               <div className="amout">
                 <p>50</p>
@@ -23,7 +23,7 @@ function Review() {
                 <p>4.5</p>
                 <img src={assets.Rating} alt="" />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="right-review">
@@ -41,17 +41,18 @@ function Review() {
                 <h4>Mhd. Ibrahim</h4>
                 <h5>CHIEF EXECUTIVE OFFICER</h5>
                 <span>AL RUQEE GROUP</span>
-                <small>24-10-2022</small>
+                {/* <small>24-10-2022</small> */}
               </div>
             </div>
           </div>
           <div className="details">
             <h4>Results-Driven Approach</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              "I've had the pleasure of working with Baraa Global for the past
+              year, and their exceptional service has been a game-changer for
+              our business. Their professional approach and insightful
+              strategies have significantly improved our operations.
+              Highly recommend!"
             </p>
           </div>
           <div className="like">
@@ -68,17 +69,17 @@ function Review() {
                 <h4>Abdullah Jameel</h4>
                 <h5>Business Owner</h5>
                 <span>SAUDI CABIN</span>
-                <small>24-10-2022</small>
+                {/* <small>24-10-2022</small> */}
               </div>
             </div>
           </div>
           <div className="details">
             <h4>Innovative Strategies</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              "Baraa Global has been instrumental in our business growth. Their
+              team is knowledgeable, responsive, and truly cares about our
+              success. We've seen a noticeable improvement in our efficiency and
+              profitability since partnering with them."
             </p>
           </div>
           <div className="like">
@@ -95,17 +96,17 @@ function Review() {
                 <h4>Khalid Waleed</h4>
                 <h5>E-commerce Manager</h5>
                 <span>SEMAKA GROUP</span>
-                <small>24-10-2022</small>
+                {/* <small>24-10-2022</small> */}
               </div>
             </div>
           </div>
           <div className="details">
             <h4>Expertise in New Business setup </h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              "The expertise and dedication of Baraa Global have exceeded our
+              expectations. They provided tailored solutions that addressed our
+              specific needs and helped us achieve our business goals. Their
+              support has been invaluable."
             </p>
           </div>
           <div className="like">
