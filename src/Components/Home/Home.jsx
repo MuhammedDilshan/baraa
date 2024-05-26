@@ -11,16 +11,18 @@ import Review from "../Review/Review";
 
 function Home() {
   return (
-    <div>
+    <>
       <Header />
       <Spotlight />
-      <About />
-      <Vision />
-      <Service />
-      <Choose />
-      <Review />
-      <Footer />
-    </div>
+      <div className="home-canvas">
+        <About />
+        <Vision />
+        <Service />
+        <Choose />
+        <Review />
+        <Footer />
+      </div>
+    </>
   );
 }
 

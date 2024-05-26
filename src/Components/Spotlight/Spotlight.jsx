@@ -4,12 +4,13 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FaArrowDown } from "react-icons/fa6";
-
+import { Link } from "react-router-dom";
 function Spotlight() {
   var settings = {
     infinite: true,
     speed: 1500,
     slidesToShow: 1,
+    accessibility: false,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 5000,
@@ -23,7 +24,9 @@ function Spotlight() {
             <h3>Our Experts simplifies</h3>
             <h4>Your Documentation Requirements</h4>
             <button>
-              Services <FaArrowDown />
+              <Link to="/service">
+                Services <FaArrowDown />
+              </Link>
             </button>
           </div>
         </div>
@@ -34,7 +37,9 @@ function Spotlight() {
             <h3>Documenting Dreams </h3>
             <h4>Translating Visions</h4>
             <button>
-              About Us <FaArrowDown />
+              <Link to="/about">
+                About Us <FaArrowDown />
+              </Link>
             </button>
           </div>
         </div>
@@ -49,7 +54,9 @@ function Spotlight() {
               changing environments
             </h4>
             <button>
-              Contact Us <FaArrowDown />
+              <Link to="/contact">
+                Contact Us <FaArrowDown />
+              </Link>
             </button>
           </div>
         </div>
